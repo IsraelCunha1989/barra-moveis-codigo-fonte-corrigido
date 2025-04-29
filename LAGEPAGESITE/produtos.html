@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valdir Móveis da Barra - Produtos</title>
+    <link rel="stylesheet" href="/LAGEPAGESITE/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Valdir Móveis da Barra</h1>
+                <p>Qualidade e estilo para sua casa</p>
+            </div>
+            <nav>
+                <button id="menu-toggle" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="main-menu">
+                    <li><a href="/LAGEPAGESITE/index.html">Início</a></li>
+                    <li><a href="/LAGEPAGESITE/produtos.html" class="active">Produtos</a></li>
+                    <li><a href="/LAGEPAGESITE/sobre.html">Sobre Nós</a></li>
+                    <li><a href="/LAGEPAGESITE/contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="produtos-header">
+        <div class="container">
+            <h1>Nossos Produtos</h1>
+            <p>Conheça nossa linha completa de móveis de alta qualidade</p>
+        </div>
+    </section>
+
+    <section class="filtros">
+        <div class="container">
+            <div class="filtros-container">
+                <button class="filtro-btn active" data-categoria="todos">Todos</button>
+                <button class="filtro-btn" data-categoria="sala">Sala</button>
+                <button class="filtro-btn" data-categoria="quarto">Quarto</button>
+                <button class="filtro-btn" data-categoria="cozinha">Cozinha</button>
+                <button class="filtro-btn" data-categoria="escritorio">Escritório</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="produtos-container">
+        <div class="container">
+            <div class="produtos-grid">
+                <!-- Sala -->
+                <div class="produto-card" data-categoria="sala">
+                    <div class="produto-img">
+                        <img src="/LAGEPAGESITE/img/sofa-retratil.jpg" alt="Sofá Retrátil">
+                    </div>
+                    <h3>Sofá Retrátil 3 Lugares</h3>
+                    <p>Conforto e elegância para sua sala com este sofá retrátil de alta qualidade.</p>
+                    <a href="/LAGEPAGESITE/produto.html?id=1" class="btn">Ver Detalhes</a>
+                </div>
+                <div class="produto-card" data-categoria="sala">
+                    <div class="produto-img">
+                        <img src="/LAGEPAGESITE/img/rack-tv.jpg" alt="Rack para TV">
+                    </div>
+                    <h3>Rack para TV com Painel</h3>
+                    <p>Rack moderno com painel para TV, gavetas e nichos para organização.</p>
+                    <a href="/LAGEPAGESITE/produto.html?id=5" class="btn">Ver Detalhes</a>
+                </div>
+                <div class="produto-card" data-categoria="sala">
+                    <div class="produto-img">
+                        <img src="/LAGEPAGESITE/img/poltrona.jpg" alt="Poltrona">
+                    </div>
+                    <h3>Poltrona Decorativa</h3>
+                    <p>Poltrona confortável e elegante para complementar sua sala de estar.</p>
+                    <a href="/LAGEPAGESITE/produto.html?id=6" class="btn">Ver Detalhes</a>
+                </div>
+                <div class="produto-card" data-categoria="sala">
+                    <div class="produto-img">
+                        <img src="/LAGEPAGESITE/img/mesa-centro.jpg" alt="Mesa de Centro">
+                    </div>
+                    <h3>Mesa de Centro Moderna</h3>
+                    <p>Mesa de centro com design moderno e acabamento de alta qualidade.</p>
+                    <a href="/LAGEPAGESITE/produto.html?id=7" class="btn">Ver Detalhes</a>
+                </div>
+
+                <!-- Quarto -->
+                <div class="produto-card" data-categoria="quarto">
+                    <div class="produto-img">
+                        <img src="/LAGEPAGESITE/img/cama-casal.jpg" alt="Cama Casal">
+                    </div>
+                    <h3>Cama Box Casal</h3>
+                    <p>Durma com conforto e estilo com nossa cama box de casal com cabeceira estofada.</p>
+                    <a href="/LAGEPAGESITE/produto.html?id=2" class="btn">Ver Detalhes</a>
+                </div>
+                <div class="produto-card" data-categoria="quarto">
+                    <div class="produto-img">
+                        <img src="/LAGEPAGESITE/img/guarda-roupa.jpg" alt="Guarda-roupa">
+                    </div>
+                    <h3>Guarda-roupa 6 Portas</h3>
+                    <p>Guarda-roupa espaçoso com 6 portas, gavetas e espelho.</p>
+                    <a href="/LAGEPAGESITE/produto.html?id=8" class="btn">Ver Detalhes</a>
+                </div>
+                <div class="produto-card" data-categoria="quarto">
+                    <div class="produto-img">
+                        <img src="/LAGEPAGESITE/img/comoda.jpg" alt="Cômoda">
+                    </div>
+                    <h3>Cômoda 5 Gavetas</h3>
+                    <p>Cômoda com 5 gavetas para organizar suas roupas com estilo.</p>
+                    <a href="/LAGEPAGESITE/produto.html?id=9" class="btn">Ver Detalhes</a>
+                </div>
+                <div class="produto-card" data-categoria="quarto">
+                    <div class="produto-img">
+                        <img src="/LAGEPAGESITE/img/criado-mudo.jpg" alt="Criado-mudo">
+                    </div>
+                    <h3>Criado-mudo com Gaveta</h3>
+                    <p>Criado-mudo com gaveta e nicho para organizar seus itens pessoais.</p>
+                    <a href="/LAGEPAGESITE/produto.html?id=10" class="btn">Ver Detalhes</a>
+                </div>
+
+                <!-- Cozinha -->
+                <div class="produto-card" data-categoria="cozinha">
+                    <div class="produto-img">
+                        <img src="/LAGEPAGESITE/img/mesa-jantar.jpg" alt="Mesa de Jantar">
+                    </div>
+                    <h3>Mesa de Jantar 6 Lugares</h3>
+                    <p>Mesa de jantar elegante com 6 cadeiras para reunir família e amigos.</p>
+                    <a href="/LAGEPAGESITE/produto.html?id=3" class="btn">Ver Detalhes</a>
+                </div>
+                <div class="produto-card" data-categoria="cozinha">
+                    <div class="produto-img">
+                        <img src="/LAGEPAGESITE/img/armario-cozinha.jpg" alt="Armário de Cozinha">
+                    </div>
+                    <h3>Armário de Cozinha Completo</h3>
+                    <p>Conjunto completo de armários para cozinha com balcão e paneleiro.</p>
+                    <a href="/LAGEPAGESITE/produto.html?id=11" class="btn">Ver Detalhes</a>
+                </div>
+                <div class="produto-card" data-categoria="cozinha">
+                    <div class="produto-img">
+                        <img src="/LAGEPAGESITE/img/mesa-bar.jpg" alt="Mesa de Bar">
+                    </div>
+                    <h3>Mesa de Bar com Banquetas</h3>
+                    <p>Mesa alta estilo bar com 4 banquetas para sua cozinha ou área gourmet.</p>
+                    <a href="/LAGEPAGESITE/produto.html?id=12" class="btn">Ver Detalhes</a>
+                </div>
+
+                <!-- Escritório -->
+                <div class="produto-card" data-categoria="escritorio">
+                    <div class="produto-img">
+                        <img src="/LAGEPAGESITE/img/escrivaninha.jpg" alt="Escrivaninha">
+                    </div>
+                    <h3>Escrivaninha com Gavetas</h3>
+                    <p>Escrivaninha moderna com gavetas para organizar seu espaço de trabalho.</p>
+                    <a href="/LAGEPAGESITE/produto.html?id=4" class="btn">Ver Detalhes</a>
+                </div>
+                <div class="produto-card" data-categoria="escritorio">
+                    <div class="produto-img">
+                        <img src="/LAGEPAGESITE/img/cadeira-escritorio.jpg" alt="Cadeira de Escritório">
+                    </div>
+                    <h3>Cadeira de Escritório Ergonômica</h3>
+                    <p>Cadeira ergonômica com ajuste de altura e apoio lombar para mais conforto.</p>
+                    <a href="/LAGEPAGESITE/produto.html?id=13" class="btn">Ver Detalhes</a>
+                </div>
+                <div class="produto-card" data-categoria="escritorio">
+                    <div class="produto-img">
+                        <img src="/LAGEPAGESITE/img/estante.jpg" alt="Estante">
+                    </div>
+                    <h3>Estante para Livros</h3>
+                    <p>Estante moderna com nichos para organizar livros e objetos decorativos.</p>
+                    <a href="/LAGEPAGESITE/produto.html?id=14" class="btn">Ver Detalhes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="grupo-vip">
+        <div class="container">
+            <h2>Grupo VIP</h2>
+            <p>Faça parte do nosso grupo exclusivo e receba ofertas especiais antes de todos!</p>
+            <a href="https://wa.me/5521999999999?text=Quero%20fazer%20parte%20do%20grupo%20VIP%20da%20Valdir%20M%C3%B3veis" class="btn btn-whatsapp">
+                <i class="fab fa-whatsapp"></i> Entrar para o Grupo VIP
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Valdir Móveis da Barra</h2>
+                    <p>Qualidade e estilo para sua casa desde 1995</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="/LAGEPAGESITE/index.html">Início</a></li>
+                        <li><a href="/LAGEPAGESITE/produtos.html">Produtos</a></li>
+                        <li><a href="/LAGEPAGESITE/sobre.html">Sobre Nós</a></li>
+                        <li><a href="/LAGEPAGESITE/contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. das Américas, 1000 - Barra da Tijuca, Rio de Janeiro</p>
+                    <p><i class="fas fa-phone"></i> (21) 9999-9999</p>
+                    <p><i class="fas fa-envelope"></i> contato@valdirmoveis.com.br</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/valdirmoveisbarra" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/valdirmoveisbarra" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://wa.me/5521999999999" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Valdir Móveis da Barra. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/LAGEPAGESITE/js/script.js"></script>
+</body>
+</html>
